@@ -24,12 +24,12 @@ export const clientMailOptions = (name, email) => ({
   <div style="font-family: Inter, Arial, sans-serif;background-color:#FFFFFF padding:3px; color:#000000;">
     <div style="max-width:600px;margin:auto;background:rgba(255,255,255,0.05);backdrop-filter:blur(16px);padding:25px;border-radius:6px;box-shadow:0 8px 25px rgba(0,0,0,0.5)">
       <h2 style="-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:22px;margin-bottom:15px;">
-        Thank You, ${name}!
+        Thank You, ${name}!!
       </h2>
       <p>Hi ${name},</p>
       <p>I’ve received your message and I’ll get back to you shortly.  
          Meanwhile, you can explore more of my work below:</p>
-      <a href="https://nagaruthwik.vercel.app" style="display:inline-block;margin-top:20px;padding:12px 22px;background:#9FA8FB;color:#fff;text-decoration:none;border-radius:2px;">Visit My Portfolio</a>
+      <a href="https://nagaruthwik.vercel.app" style="display:inline-block;margin-top:20px;padding:12px 22px;background:#9FA8FB;color:#fff;text-decoration:none;border-radius:2px;">Visit My Portfolio </a>
       <p style="margin-top:25px;font-size:13px;color:#aaa;">This is an automated response from Nagaruthwik ©</p>
     </div>
   </div>`
