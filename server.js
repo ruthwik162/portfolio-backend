@@ -22,14 +22,14 @@ const transporter = nodemailer.createTransport({
 // Test email connection
 transporter.verify((error, success) => {
   if (error) {
-    console.error("Mail server not ready:", error);
+    console.error("Mail server not ready:", error); 
   } else {
     console.log("Mail server is ready to send messages");
   }
 });
 
 // API endpoint
-app.post("/api/contact", async (req, res) => {
+app.post("/contact", async (req, res) => {
   try {
     const { name, email, subject, message } = req.body;
 
